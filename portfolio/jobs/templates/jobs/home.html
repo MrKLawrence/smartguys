@@ -55,12 +55,12 @@
     <ul class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link" href="">
-          <img src="{% static 'linkedin.png' %}" width="30" height="30" />
+          <img src="" width="30" height="30" />
         </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="" tabindex="-1">
-          <img src="{% static 'instagram.png' %}" width="30" height="30" />
+          <img src="" width="30" height="30" />
         </a>
       </li>
     </ul>
@@ -78,7 +78,7 @@
       <p>
         <a href="mailto:Mr.K.L@technologist.com" class="btn btn-primary my-2">Email Me</a>
       </p>
-      <img src="{% static '00_profile.jpeg' %}" height=400></img>
+      <img src="" height=400></img>
     </div>
   </section>
 
@@ -86,14 +86,14 @@
     <div class="container">
 
       <div class="row">
-        {% for job in jobs.all %}
+
 
         <div class="col-md-4">
-          <a href="{% url 'detail' job.id %}">
+          <a href="">
           <div class="card mb-4 shadow-sm">
-            <img class="card-img-top" src="{{ job.image.url }}"></img>
+            <img class="card-img-top" src=""></img>
             <div class="card-body">
-              <p class="card-text">{{ job.summary }}</p>
+              <p class="card-text"></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary"><a href="mailto:Mr.K.L@technologist.com">More</a></button>
@@ -103,7 +103,7 @@
           </div>
           </a>
         </div>
-        {% endfor %}
+
       </div>
     </div>
   </div>
